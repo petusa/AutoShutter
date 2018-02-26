@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23DA8242044447D00A54F07 /* 263133__pan14__tone-beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = E23DA8232044447D00A54F07 /* 263133__pan14__tone-beep.wav */; };
+		E23DA8272044464E00A54F07 /* 26185__fogma__my-car-horn-beep-beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = E23DA8252044464E00A54F07 /* 26185__fogma__my-car-horn-beep-beep.wav */; };
+		E23DA8282044464E00A54F07 /* 180821__empty-bell__beep.wav in Resources */ = {isa = PBXBuildFile; fileRef = E23DA8262044464E00A54F07 /* 180821__empty-bell__beep.wav */; };
+		E2782D861F06EB730059A8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2782D851F06EB730059A8D9 /* AppDelegate.swift */; };
+		E2782D881F06EB730059A8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2782D871F06EB730059A8D9 /* ViewController.swift */; };
+		E2782D8A1F06EB730059A8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2782D891F06EB730059A8D9 /* Assets.xcassets */; };
+		E2782D8D1F06EB730059A8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2782D8B1F06EB730059A8D9 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E23DA8232044447D00A54F07 /* 263133__pan14__tone-beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "263133__pan14__tone-beep.wav"; sourceTree = "<group>"; };
+		E23DA8252044464E00A54F07 /* 26185__fogma__my-car-horn-beep-beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "26185__fogma__my-car-horn-beep-beep.wav"; sourceTree = "<group>"; };
+		E23DA8262044464E00A54F07 /* 180821__empty-bell__beep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "180821__empty-bell__beep.wav"; sourceTree = "<group>"; };
+		E2782D821F06EB730059A8D9 /* AutoShutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoShutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2782D851F06EB730059A8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2782D871F06EB730059A8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2782D891F06EB730059A8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2782D8C1F06EB730059A8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2782D8E1F06EB730059A8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2782D7F1F06EB730059A8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23DA8292044477700A54F07 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E23DA82A2044479F00A54F07 /* sounds */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E23DA82A2044479F00A54F07 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				E23DA8252044464E00A54F07 /* 26185__fogma__my-car-horn-beep-beep.wav */,
+				E23DA8262044464E00A54F07 /* 180821__empty-bell__beep.wav */,
+				E23DA8232044447D00A54F07 /* 263133__pan14__tone-beep.wav */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		E2782D791F06EB730059A8D9 = {
+			isa = PBXGroup;
+			children = (
+				E2782D841F06EB730059A8D9 /* AutoShutter */,
+				E2782D831F06EB730059A8D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2782D831F06EB730059A8D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2782D821F06EB730059A8D9 /* AutoShutter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2782D841F06EB730059A8D9 /* AutoShutter */ = {
+			isa = PBXGroup;
+			children = (
+				E23DA8292044477700A54F07 /* Assets */,
+				E2782D851F06EB730059A8D9 /* AppDelegate.swift */,
+				E2782D871F06EB730059A8D9 /* ViewController.swift */,
+				E2782D891F06EB730059A8D9 /* Assets.xcassets */,
+				E2782D8B1F06EB730059A8D9 /* Main.storyboard */,
+				E2782D8E1F06EB730059A8D9 /* Info.plist */,
+			);
+			path = AutoShutter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2782D811F06EB730059A8D9 /* AutoShutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2782D911F06EB730059A8D9 /* Build configuration list for PBXNativeTarget "AutoShutter" */;
+			buildPhases = (
+				E2782D7E1F06EB730059A8D9 /* Sources */,
+				E2782D7F1F06EB730059A8D9 /* Frameworks */,
+				E2782D801F06EB730059A8D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoShutter;
+			productName = AutoShutter;
+			productReference = E2782D821F06EB730059A8D9 /* AutoShutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2782D7A1F06EB730059A8D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mobile Dev Studio";
+				TargetAttributes = {
+					E2782D811F06EB730059A8D9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9ZE45NCJ7V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E2782D7D1F06EB730059A8D9 /* Build configuration list for PBXProject "AutoShutter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2782D791F06EB730059A8D9;
+			productRefGroup = E2782D831F06EB730059A8D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2782D811F06EB730059A8D9 /* AutoShutter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2782D801F06EB730059A8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23DA8282044464E00A54F07 /* 180821__empty-bell__beep.wav in Resources */,
+				E2782D8A1F06EB730059A8D9 /* Assets.xcassets in Resources */,
+				E23DA8242044447D00A54F07 /* 263133__pan14__tone-beep.wav in Resources */,
+				E23DA8272044464E00A54F07 /* 26185__fogma__my-car-horn-beep-beep.wav in Resources */,
+				E2782D8D1F06EB730059A8D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2782D7E1F06EB730059A8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2782D881F06EB730059A8D9 /* ViewController.swift in Sources */,
+				E2782D861F06EB730059A8D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2782D8B1F06EB730059A8D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2782D8C1F06EB730059A8D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2782D8F1F06EB730059A8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2782D901F06EB730059A8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		E2782D921F06EB730059A8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9ZE45NCJ7V;
+				INFOPLIST_FILE = AutoShutter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevstudio.AutoShutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E2782D931F06EB730059A8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9ZE45NCJ7V;
+				INFOPLIST_FILE = AutoShutter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiledevstudio.AutoShutter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2782D7D1F06EB730059A8D9 /* Build configuration list for PBXProject "AutoShutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2782D8F1F06EB730059A8D9 /* Debug */,
+				E2782D901F06EB730059A8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2782D911F06EB730059A8D9 /* Build configuration list for PBXNativeTarget "AutoShutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2782D921F06EB730059A8D9 /* Debug */,
+				E2782D931F06EB730059A8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2782D7A1F06EB730059A8D9 /* Project object */;
+}
