@@ -10,4 +10,4 @@ The AutoShutter resolves this problem via programatically triggering a press and
 
 The app only has a Start/Stop button, which is whenever pressed the Sony Remote Camera application's capture button will be pressed automatically. So no one needs to hold the capture button pressed while shooting in continous mode. 
 
-[![Vimeo intro video](ScreenShots/Vimeo_thumbnail.png)](https://vimeo.com/257507389)
+[![Vimeo intro video](Screenshots/Vimeo_thumbnail.png)](https://vimeo.com/257507389)
